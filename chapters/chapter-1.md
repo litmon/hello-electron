@@ -21,6 +21,7 @@ $ npm init
 ```
 
 `electron` をインストールする
+
 `npm install` 時に `--save-dev` オプションを付けると、 `package.json` にいい感じに追加してくれる
 
 ```
@@ -47,7 +48,9 @@ $ npm install --save-dev electron
 ```
 
 `index.js` を作成([electronのチュートリアル](http://electron.atom.io/docs/tutorial/quick-start/) をそのままコピペでOK)
+
 `index.js` は、 `package.json` に記載してある `main` という項目にあるファイル名を参照するため、 `main` の部分が違うのなら同じになるようにする
+
 これがelectronのエントリポイントになる
 
 ```
@@ -108,6 +111,7 @@ app.on('activate', () => {
 ```
 
 `index.html` を作成
+
 `index.js` 内で、loadURLで表示するHTMLファイルを読み込んでいる(下記部分)
 
 ```
