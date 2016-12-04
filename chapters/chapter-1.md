@@ -1,3 +1,8 @@
+
+Chapter 1.で完成したところまでのリポジトリの様子はこちら
+
+https://github.com/litmon/hello-electron/tree/chapter-1
+
 # Chapter 1. Electronの導入・起動まで
 
 適当な作業用フォルダを作成
